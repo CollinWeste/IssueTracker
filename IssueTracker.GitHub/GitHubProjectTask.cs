@@ -3,9 +3,9 @@ using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace IssueTracker.Model
+namespace IssueTracker.GitHub
 {
-    internal class ProjectTask : IProjectTask
+    internal class GitHubProjectTask : IProjectTask
     {
         public string Issue => throw new NotImplementedException();
 
