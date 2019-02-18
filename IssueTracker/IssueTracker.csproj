@@ -111,6 +111,10 @@
       <Project>{8bfe8e2b-2ff7-443b-949e-c6be0a20fb1b}</Project>
       <Name>IssueTracker.Interface</Name>
     </ProjectReference>
+    <ProjectReference Include="..\IssueTracker.Model\IssueTracker.Model.csproj">
+      <Project>{70642911-FC3F-494C-A6D1-047C4A07EB85}</Project>
+      <Name>IssueTracker.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

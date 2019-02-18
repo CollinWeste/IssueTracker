@@ -1,6 +1,8 @@
-﻿namespace IssueTracker.Interface
+﻿using System.ComponentModel;
+
+namespace IssueTracker.Interface
 {
-    public interface ITask
+    public interface IProjectTask : INotifyPropertyChanged
     {
         /// <summary>
         /// The identifier for the item.

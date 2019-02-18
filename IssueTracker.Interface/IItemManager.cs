@@ -5,9 +5,9 @@ namespace IssueTracker.Interface
 {
     public interface IItemManager
     {
-        IEnumerable<ITask> GetTasks();
-        Task<string> OpenPullRequest(ITask task);
-        Task<string> AddTests(ITask task);
-        Task<string> CompleteTask(ITask task);
+        IEnumerable<IProjectTask> GetTasks();
+        Task<string> OpenPullRequest(IProjectTask task);
+        Task<string> AddTests(IProjectTask task);
+        Task<string> CompleteTask(IProjectTask task);
     }
 }
