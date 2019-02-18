@@ -55,6 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModel\IssueViewModel.cs" />
+    <Compile Include="View\IssueGrid.xaml.cs">
+      <DependentUpon>IssueGrid.xaml</DependentUpon>
+    </Compile>
     <Page Include="IssueTrackerWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +71,10 @@
       <DependentUpon>IssueTrackerWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="View\IssueGrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -93,6 +101,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IssueTracker.GitHub\IssueTracker.GitHub.csproj">
+      <Project>{2a32e441-1918-4bb2-a24d-b3746290def1}</Project>
+      <Name>IssueTracker.GitHub</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IssueTracker.Interface\IssueTracker.Interface.csproj">
+      <Project>{8bfe8e2b-2ff7-443b-949e-c6be0a20fb1b}</Project>
+      <Name>IssueTracker.Interface</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

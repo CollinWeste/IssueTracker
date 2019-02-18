@@ -4,6 +4,21 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IssueTracker"
+        xmlns:view="clr-namespace:IssueTracker.View"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File"></MenuItem>
+            <MenuItem Header="_Project">
+                <MenuItem Header="_Refresh"/>
+                <Separator />
+                <MenuItem Header="_Add New..."/>
+            </MenuItem>
+            <MenuItem Header="_Tools"></MenuItem>
+            <MenuItem Header="_Help"></MenuItem>
+        </Menu>
+        
+        <view:IssueGrid/>
+    </DockPanel>
 </Window>
