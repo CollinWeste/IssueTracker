@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetExtensions", "..\DotN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssueTracker.Model", "IssueTracker.Model\IssueTracker.Model.csproj", "{70642911-FC3F-494C-A6D1-047C4A07EB85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssueTracker.Rest", "IssueTracker.Rest\IssueTracker.Rest.csproj", "{56D4BA3C-C840-4257-9FEF-7BE885333247}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{70642911-FC3F-494C-A6D1-047C4A07EB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70642911-FC3F-494C-A6D1-047C4A07EB85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70642911-FC3F-494C-A6D1-047C4A07EB85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D4BA3C-C840-4257-9FEF-7BE885333247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D4BA3C-C840-4257-9FEF-7BE885333247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D4BA3C-C840-4257-9FEF-7BE885333247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D4BA3C-C840-4257-9FEF-7BE885333247}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

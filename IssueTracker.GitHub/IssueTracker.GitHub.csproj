@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProjectTask.cs" />
+    <Compile Include="GitHubItemManager.cs" />
+    <Compile Include="GitHubTaskFactory.cs" />
+    <Compile Include="GitHubProjectTask.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
